@@ -37,7 +37,6 @@ function displayCurrentTime(){
             prepand = ' AM';
         }
     }
-    // console.log("Current Time: " + hour + prepand + " : " + minute + " : "+ second);
     let CurrentTime = "Current Time: " + hour + prepand + " : " + minute + " : "+ second;
     return (todaysDay, CurrentTime) ;
 }
